@@ -1,133 +1,122 @@
-*{margin: 0;
- padding: 0;
- box-sizing: border-box;
- font-family: 'Lato', sans-serif;
-}
-
-.caixa-principal{
-height: 100vh;
-width: 100%;
-background-image: url(./img/background.jpg)
-}
- 
-nav{
- display: flex;
- align-items: center;
- justify-content:space-between;
- padding-left: 40px;
- padding-right: 40px;
- padding-top: 25px;
-
-}
-
-.portfolio{
-color: white;
-font-size: 40px;
-}
-
-.portfolio span{
-color: #f9004d;
-
-}
-
-li {
-color: white;
-list-style: none;
-display: inline-block;
-font-size: 25px;
-margin-right: 25px;
-cursor: pointer;
-}
-
-li:hover{
-color: #f9004d;
-transition: 0.5s;
-}
-
-.meu-nome{
-position: absolute;
-top: 38%;
-left: 40%;
-font-size: 30px;
-}
-
-h1{
-color: white;
-font-size: 73px;
-}
-
-h1 span{
-color: #f9004d;
-}
-
-.meu-nome h3{
-position: absolute;
-display: inline-block;
-color: white;
-font-size: 30px;
-left: 29px;
-
-}
-
-section {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    top: 100%;
-    background-color: black;
-    
-}
-section img{
-    height: 400px;
-    border-radius: 100%;
-    border: 3px solid #f9004d;
-    margin-left: 47px;
-    margin-top: 60px;
-    
-}
-    
-
-
-
-section div h2{
-    color: white;
-    font-size: 50px;
-    display: inline-block;
-    align-items: center;
-    padding-left: 22px;
-
-}
-
-section div p{
-    color: #ffcfde;
-    font-size: 24px;
-    display: inline-block;
-    align-items: center;
-    padding-left: 22px;
-    padding-right: 55%;
-    
-    justify-content: space-between;
-
-
-}
-
-section div button{
-    color: white;
-    background: #f9004d;
-    height: 50px;
-    width: 165px;
-    font-size: 18px;
-    border: none;
-    border-radius: 26px;
-    margin-top: 17px;
-    margin-left: 8px;
-    
-}
-
-section div button:hover{
-    background-color: black;
-    border: 3px solid #f9004d;
-    transition: 0.5s;
-
-
-}
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  .caixa-principal {
+     height: 100vh;
+     width: 100%;
+     background-image: url(./img/background.png);
+     background-size: cover;
+     background-position: center;
+     background-color: #191919;
+  }
+  
+  nav {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding-left: 30px;
+     padding-right: 30px;
+     padding-top: 25px;
+  }
+  
+  .portfolio {
+     color: #ffffff;
+     font-size: 40px;
+     font-weight: 500;
+  }
+  
+  .portfolio span {
+     color: #f9004d;
+  }
+  
+  li {
+     color: white;
+     list-style: none;
+     display: inline-block;
+     font-size: 25px;
+     margin-right: 30px;
+     cursor: pointer;
+  }
+  
+  li:hover {
+     color: #f9004d;
+     transition: 0.5s;
+  }
+  
+  .meu-nome {
+     position: absolute;
+     top: 50%;
+     left: 7%;
+  }
+  
+  h1 {
+     color: white;
+     font-size: 75px;
+  }
+  
+  h1 span {
+     color: #f9004d;
+  }
+  
+  .meu-nome h3 {
+     color: white;
+     font-size: 25px;
+  }
+  
+  section {
+     display: flex;
+     align-items: center;
+     padding: 60px 15%;
+     background-color: #000000;
+  }
+  
+  section img {
+     height: 400px;
+     border-radius: 100%;
+     border: 2px solid #f9004d;
+     margin-right: 30px;
+  }
+  
+  section div h2 {
+     color: white;
+     font-size: 75px;
+  }
+  
+  section div p {
+     color: #e2b9c6;
+     font-size: 24px;
+     margin-top: 15px;
+     margin-bottom: 60px;
+  }
+  
+  section div button {
+     color: white;
+     background: #f9004d;
+     height: 50px;
+     width: 180px;
+     font-size: 18px;
+     border: none;
+     border-radius: 26px;
+     cursor: pointer;
+  }
+  
+  section div button:hover {
+     background-color: black;
+     border: 3px solid #f9004d;
+     transition: 0.5s;
+  }
+  
+  .projetos {
+     background-color: #191919;
+     padding-top: 50px;
+     padding-bottom: 100px;
+  }
+  
+  .projetos h2 {
+     color: white;
+     font-size: 75px;
+     text-align: center; }
