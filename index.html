@@ -13,14 +13,14 @@
 </head>
 
 <body>
-    <div class="caixa-principal">
+    <div class="caixa-principal" id="Home">
         <nav>
             <h2 class="portfolio">Portfo<span>lio</span></h2>
             <ul>
-                <li><a>Home</a></li>
-                <li><a>Sobre</a></li>
-                <li><a></a>Projetos</a></li>
-                <li><a></a>Fale comigo</a></li>
+                <li><a class="link-menu" href="#home">Home</a></li>
+                <li><a class="link-menu" href="#sobre">Sobre</a></li>
+                <li><a class="link-menu" href="#projetos-id">Projetos</a></li>
+                <li><a class="link-menu" href="#fale-comigo">Fale comigo</a></li>
             </ul>
         </nav>
 
@@ -30,13 +30,13 @@
         </div>
     </div>
 
-    <section>
-        <img src="img.png">
+    <section id="sobre">
+        <img src="./img/me.jpg">
         <div>
             <h2>Sobre mim</h2>
             <p>Sou um programador back-end especializado em Python e GoLang, com conhecimentos sólidos em
                 desenvolvimento web utilizando JavaScript, HTML e CSS.</p>
-            <button>Entre em contato</button>
+            <a href="https://github.com/gian-nunes" target="_blank"><button>GitHub</button></a>
         </div>
     </section>
 
@@ -44,17 +44,47 @@
     <div class="projetos">
         <h2>Principais Projetos</h2>
 
-        <div class="card">
-            <img src="./img/cadastro.png">
-            <h5>Projeto em andamento</h5>
-            <p>Projeto em andamento</p>
-            <a>Ver Projeto</a>
-            <a>Repositório</a>
+        <div class="card-projetos" id="projetos-id">
+            <div class="card">
+                <img src="./img/cadastro.png">
+                <h5>Cadastro de produtos</h5>
+                <p>Projeto em andamento</p>
+                <a>Ver Projeto</a>
+            </div>
+
+            <div class="card">
+                <img src="./img/calculadora.png">
+                <h5>Calculadora Calorias</h5>
+                <p>Projeto em andamento</p>
+                <a>Ver Projeto</a>
+
+            </div>
+
+            <div class="card">
+                <img src="./img/salario.png">
+                <h5>Calculo de Salário</h5>
+                <p>Projeto em andamento</p>
+                <a>Ver Projeto</a>
+            </div>
 
         </div>
+</div>
 
+    <footer id="fale-comigo">
+        <h5>Gian Souza</h5>
+        <p>Para mais informações</p>
 
-    </div>
+        <div class="social">
+            <a href="https://www.linkedin.com/in/gian-souza-nunes-509749223/" target="_blank"><img src="./img/linkedin.png">
+
+        </a>
+            <a href="https://wa.me/5543984858884" target="_blank"><img src="./img/fone.png">
+
+        </a>
+
+        </div>
+   </footer>
+
 
 
 
